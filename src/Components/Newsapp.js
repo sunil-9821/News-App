@@ -34,18 +34,36 @@ const Newsapp = () => {
         <p className="update">Stay update with TrendyNews</p>
       </div>
       <div className="categoryBtn">
-        <button onClick={userInput} value="sports">Sports</button>
-        <button onClick={userInput} value="politics">Politics</button>
+        <button onClick={userInput} value="sports">
+          Sports
+        </button>
+        <button onClick={userInput} value="politics">
+          Politics
+        </button>
         <button onClick={userInput} value="entertainment">
           Entertainment
         </button>
-        <button onClick={userInput} value="health">Health</button>
-        <button onClick={userInput} value="fitness">Fitness</button>
-        <button onClick={userInput} value="business">Business</button>
-        <button onClick={userInput} value="science">Science</button>
-        <button onClick={userInput} value="world">World</button>
-        <button onClick={userInput} value="technology">Technology</button>
-        <button onClick={userInput} value="finance">Finance</button>
+        <button onClick={userInput} value="health">
+          Health
+        </button>
+        <button onClick={userInput} value="fitness">
+          Fitness
+        </button>
+        <button onClick={userInput} value="business">
+          Business
+        </button>
+        <button onClick={userInput} value="science">
+          Science
+        </button>
+        <button onClick={userInput} value="world">
+          World
+        </button>
+        <button onClick={userInput} value="technology">
+          Technology
+        </button>
+        <button onClick={userInput} value="finance">
+          Finance
+        </button>
       </div>
       <div>{newsData ? <Card data={newsData} /> : null}</div>
       <Footer />
