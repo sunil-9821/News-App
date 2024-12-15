@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import Card from "./Card";
-import Navbar from "../Navbar";
+import Navbar from "./Navbar";
 import Footer from "./Footer";
 
 const Newsapp = () => {

@@ -7,19 +7,19 @@
     
 }
 nav {
-    background-color: #333;
+    background-color: #111;
     padding: 10px;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    color: #fff;
+    color: #ccc;
 }
 nav ul {
     display: flex;
     gap: 0.7rem;  
 }
 nav ul a {
-    color: #fff;
+    color: #ccc;
     text-decoration: none;
     cursor: pointer;
 }
@@ -43,6 +43,9 @@ nav ul a {
     color: #fff;
     font-size: 1.1rem;
     cursor: pointer;
+}
+nav ul a:hover {
+    text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.5);
 }
 .searchBar button:hover {
     background: #09639c;
@@ -138,12 +141,13 @@ nav ul a {
 
 /* Footer */
 .footer {
-    background-color: #333;
+    background: #111;
+    color: gray;
     padding: 1rem;
+    font-size: 0.7rem;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    color: #fff;
     gap: 1rem;
     margin-top: 2rem;
 }
